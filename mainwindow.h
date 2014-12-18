@@ -101,6 +101,8 @@ private slots:
 
      void on_cbEqPresets_currentIndexChanged(int index);
 
+     void on_bSkip_clicked();
+
 public slots:
         void setCDSelectorIcon(CDCOVERINFO);
 

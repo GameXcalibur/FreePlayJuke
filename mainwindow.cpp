@@ -547,3 +547,8 @@ void MainWindow::on_cbEqPresets_currentIndexChanged(int index)
      mp->equ.setPreset(index);
      EquUpdateVals();
 }
+
+void MainWindow::on_bSkip_clicked()
+{
+    mp->stopSong();
+}
